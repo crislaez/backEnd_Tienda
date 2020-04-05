@@ -85,7 +85,6 @@ app.post('/api/addProduct',multipartMiddleware, (req, res) => {
         res.status(200).send({message: productoGuardado})
     })
 })
-//buscar producto por categoria
 
 //comprar producto
 app.put('/api/updateProduct/:id', (req, res) => {
